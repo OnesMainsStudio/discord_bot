@@ -57,23 +57,6 @@ async def heh(ctx, count=5):
 #            await message.channel.send('your password:')
 #            await message.channel.send(gen_pass(25))
 #        elif message.content.startswith(list_of_commands[5]):
-#            parts = message.content.split()
-#            if len(parts) == 4:
-#                try:
-#                    num1 = int(parts[1])
-#                    num2 = int(parts[3])
-#                    result = num1 + num2
-#                    await message.channel.send(f'The result of {num1} + {num2} is {result}')
-#                except ValueError:
-#                    await message.channel.send('Invalid input. Please use the format ".add_numbers [number] + [number]"')
-#            else:
-#                await message.channel.send('Invalid input. Please use the format ".add_numbers [number] + [number]"')
-#        else:
-#            await message.channel.send('silly, there is not such command :frowning2:')
-#            print("wrong command")
-#    
-    #elif message.content.startswith(list_of_commands[5]):
-    #    await message.channel.send(random_sum(4,5))
-
+#                pass
 
 bot.run(settings['TOKEN'])
